@@ -1,0 +1,1 @@
+heudiconv -d dicomdir/sub-{subject}/* -f heuristic.py -s 20 --minmeta -c dcm2niix -b -o bids_nii/ --overwrite
